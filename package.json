@@ -3,7 +3,8 @@
   "type": "module",
   "packageManager": "yarn@4.4.0",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -16,6 +17,7 @@
     "@types/babel__preset-env": "^7",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "prettier": "^3.3.3",
     "rollup": "^4.20.0",
     "tslib": "^2.6.3",
     "typescript": "^5.5.4"

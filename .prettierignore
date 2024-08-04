@@ -1,0 +1,6 @@
+**/.git
+**/.pnp.*
+**/.yarn
+**/node_modules/
+
+yarn.lock

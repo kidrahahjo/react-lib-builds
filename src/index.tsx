@@ -1,1 +1,1 @@
-export {default as Greet} from './components/Greet';
+export { default as Greet } from "./components/Greet";
