@@ -1,22 +1,24 @@
-# my-react-package
+# react-lib-builds
 
 ## Setup
 
 ```bash
-git clone REPO
+git clone git@github.com:kidrahahjo/react-lib-builds.git
 
-cd REPO
+cd react-lib-builds
 
+# Install the required dependencies
 yarn
 ```
 
-## Examples
+## Build the Project
 
-### Typescript Build
+We use `rollup` to compile javascript, and the type definitions.
 
-Compile the current project and will generate type definitions. 
-You can see the output in `lib/`
+To build the project locally, run
 
+```bash
+yarn build
 ```
-yarn tsc -d
-```
+
+To see what plugins we use for rollup, see [rollup.config.mjs](./rollup.config.mjs)
