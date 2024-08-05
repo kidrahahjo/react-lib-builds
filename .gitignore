@@ -12,6 +12,7 @@
 #!.yarn/cache
 .pnp.*
 
-
+node_modules/
 lib/
 dist/
+stats.html

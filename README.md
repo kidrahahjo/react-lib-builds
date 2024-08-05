@@ -22,3 +22,9 @@ yarn build
 ```
 
 To see what plugins we use for rollup, see [rollup.config.mjs](./rollup.config.mjs)
+
+## Visualize What's Getting Build
+
+We use the [`rollup-plugin-visualizer`](https://github.com/btd/rollup-plugin-visualizer) plugin to visualize what we are build.
+When you run `yarn build`, it will output a `stats.html` file.
+Open that file to visualize the results.
